@@ -29,4 +29,3 @@ C:\Users\Bross\source\repos\MVCBlog\MVCBlog\bin\tr\System.Web.Mvc.resources.dll
 C:\Users\Bross\source\repos\MVCBlog\MVCBlog\obj\Debug\MVCBlog.csproj.CoreCompileInputs.cache
 C:\Users\Bross\source\repos\MVCBlog\MVCBlog\obj\Debug\MVCBlog.dll
 C:\Users\Bross\source\repos\MVCBlog\MVCBlog\obj\Debug\MVCBlog.pdb
-C:\Users\Bross\source\repos\MVCBlog\MVCBlog\obj\Debug\MVCBlog.csprojResolveAssemblyReference.cache

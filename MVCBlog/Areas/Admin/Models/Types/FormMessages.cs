@@ -7,7 +7,7 @@ namespace MVCBlog.Areas.Admin.Models.Types
 {
     public class FormMessages
     {
-        public static string addSuccess = "Ekleme işlemi başarıyla gerçekleşti ";
+        public static string success = "İşlem başarıyla gerçekleştirilmiştir ";
         public static string required = "Lütfen boş alanları doldurunuz";
     }
 }

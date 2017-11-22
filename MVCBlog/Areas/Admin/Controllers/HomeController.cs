@@ -7,8 +7,8 @@ using System.Web.Mvc;
 
 namespace MVCBlog.Areas.Admin.Controllers
 {
-    [LoginControl]
-    public class HomeController : Controller
+    
+    public class HomeController : BaseController
     {
         // GET: Admin/Home
         public ActionResult Index()
