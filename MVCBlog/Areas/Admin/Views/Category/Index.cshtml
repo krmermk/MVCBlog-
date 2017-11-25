@@ -19,9 +19,7 @@
         <div class="col-xs-12">
             <!-- /.box -->
             <div class="box">
-                <div class="box-header">
-                    <h3 class="box-title">Data Table With Full Features</h3>
-                </div>
+                <a class="btn btn-block btn-success" href="/Admin/Category/AddCategory">Yeni Kategori Ekle</a>
                 <!-- /.box-header -->
                 <div class="box-body">
                     <table id="example1" class="table table-bordered table-striped">
@@ -36,16 +34,16 @@
                         </thead>
                         <tbody>
                             @foreach (var item in Model)
-                             {
+                            {
                                 <tr id="a_@item.ID">
                                     <td>@item.ID</td>
                                     <td>@item.Name</td>
                                     <td>@item.Description</td>
-                                    <td><img src="~/Areas/Admin/Content/img/delete-icon.jpg" width="30" height="30" style="cursor:pointer"  onclick="Delete(@item.ID)"/></td>
+                                    <td><img src="~/Areas/Admin/Content/img/delete-icon.jpg" width="30" height="30" style="cursor:pointer" onclick="Delete(@item.ID)" /></td>
                                     <td><a href="/Admin/Category/UpdateCategory/@item.ID"><img src="~/Areas/Admin/Content/img/guncelle-icon.png" width="30" height="30" style="cursor:pointer" /></a></td>
 
                                 </tr>
-                             }
+                            }
                         </tbody>
                         <tfoot>
                             <tr>
